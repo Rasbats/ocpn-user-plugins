@@ -1,0 +1,26 @@
+
+:experimental:
+
+[[sect-installation-gui-welcome]]
+=== Welcome Screen and Language Selection
+
+The first screen displayed immediately after the graphical installer starts is the Welcome screen.
+
+.Welcome Screen
+
+image::anaconda/WelcomeSpoke.png[Screenshot of the Welcome screen showing language selection options.]
+
+First, select your preferred language in the left hand side column, and then select your locale from the right hand side column. You can use the text input field in the bottom left corner to search for your language instead of looking for it in the full list of more than 70 languages.
+
+The language you select on this screen will be used during the installation, and it will also be used on the installed system by default. You can change the language for the installed system later, but once you click `Continue` on this screen, you will not be able to go back and change the language used inside the installer itself.
+
+One language is pre-selected by default on top of the list. If network access is configured at this point (for example, if you booted from a network server instead of local media), the pre-selected language will be determined based on automatic location detection using the GeoIP module. Alternatively, if you used the [option]#inst.lang=# option on the boot command line or in your PXE server configuration, this language will be selected by default, but you will still be able to change it.
+
+After you select your language and locale, click `Continue` to confirm your selection and proceed to xref:Installing_Using_Anaconda.adoc#sect-installation-gui-installation-summary[Installation Summary].
+
+[NOTE]
+====
+
+If you are installing a pre-release version of {PRODUCT}, a message will be shown after you click `Continue` warning you about the pre-release status of your installation media. Click `I accept my fate` to continue with the installation, or `Get me out of here` to quit the installation and reboot your system.
+
+====

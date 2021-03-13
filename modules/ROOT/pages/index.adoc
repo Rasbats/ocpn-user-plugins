@@ -1,19 +1,17 @@
-= Fedora rawhide User Documentation
 
-Fedora documentation describes how to install and use the Fedora operating system and the software packaged by the Fedora Project.
+:experimental:
+include::{partialsdir}/entities.adoc[]
 
-This section contains three books about Fedora rawhide:
+= Installation Guide
 
-* xref:rawhide@fedora:release-notes:index.adoc[Fedora rawhide Release Notes]
-* xref:rawhide@fedora:install-guide:index.adoc[Fedora rawhide Installation Guide]
-* xref:rawhide@fedora:system-administrators-guide:index.adoc[Fedora rawhide System Administrator’s Guide]
+Installing {PRODUCT}{nbsp}{PRODVER} 64-bit AMD and Intel
 
-The Fedora Documentation Project only actively maintains documentation for the most recent release and the one before it.
-We also preserve older documentation on this site for historical interest and to acknowledge the generous contribution of time and effort by many, many writers and translators.
-In 1997, Richard Stallman wrote:
+[abstract]
+--
 
-____
-"The biggest deficiency in free operating systems is not in the software — it is the lack of good free manuals that we can include in these systems.”footnote:[Free Software and Free Manuals, available from link:http://www.gnu.org/philosophy/free-doc.html[]]
-____
+This manual describes the plugins available for OpenCPN.
+--
+image:title_logo.svg[Fedora Documentation Team]
+include::{partialsdir}/Legal_Notice.adoc[]
 
-We thank everybody who worked hard to correct that deficiency for previous versions of Fedora.
+include::{partialsdir}/Author_Group.adoc[]

@@ -1,0 +1,59 @@
+
+:experimental:
+
+[[sect-installation-gui-manual-partitioning-btrfs]]
+==== Creating a Btrfs Layout
+
+_Btrfs_ is a type of file system, but it has several features characteristic of a storage device. It is designed to make the file system tolerant of errors, and to facilitate the detection and repair of errors when they occur. It uses checksums to ensure the validity of data and metadata, and supports snapshots that can be used for backup, replication, and namespace isolation (e.g. for use in containers).
+
+Creating a Btrfs layout is somewhat similar to LVM (described in xref:Installing_Using_Anaconda.adoc#sect-installation-gui-manual-partitioning-lvm[Creating a Logical Volume Managament (LVM) Layout]) with slightly different terminology. A Btrfs _volume_ is the equivalent of an LVM volume group, and a Btrfs _subvolume_ is similar to a LVM logical volume. An important difference to note is how [application]*Anaconda* reports sizes for separate mount points: For LVM, the exact size of each logical volume is shown next to each mount point in the left pane, while with Btrfs, the total size of the entire volume is shown next to each subvolume.
+
+[WARNING]
+====
+
+Some partition types - notably the BIOS Boot and EFI partitions - cannot be placed on Btrfs subvolumes. Use standard physical volumes for them. See xref:Installing_Using_Anaconda.adoc#sect-installation-gui-manual-partitioning-recommended[Recommended Partitioning Scheme] for more information.
+
+====
+
+.Create Btrfs Subvolume
+
+image::anaconda/CustomSpoke_AddBtrfs.png[The Manual Partitioning screen, showing available options for a selected Btrfs subvolume.]
+
+Follow the procedure below to create Btrfs volumes and subvolumes:
+
+.Creating Btrfs Subvolumes and Volumes
+. Click the `+` button at the bottom of the list showing existing mount points. A new dialog window will open.
+
+. In the new dialog window, specify a mount point for which you want to create a separate subvolume - for example, `/`. Anaconda will create a Btrfs subvolume for each mount point you create. Similar to directories, subvolumes have no discrete size of their own. Finally, click `Add mount point` to add the subvolume and return to the main partitioning screen.
++
+[NOTE]
+====
+
+When creating a mount point for swap on Btrfs, specify the mount point as `swap`.
+
+====
+
+. Once the mount point is created, select the newly created mount point in the left pane, and configure it further in the right pane. When finished, click `Update Settings` in the bottom right corner of the screen.
+
+. In the `Volume` area, you can see that the mount point's subvolume has been assigned to an automatically created volume. Click the `Modify` button under the drop-down menu to access the configure volume settings.
+
+. In the `Configure Volume` dialog, you can change the volume's name, whether it's encrypted, its `RAID level` (see xref:Installing_Using_Anaconda.adoc#sect-installation-gui-manual-partitioning-filesystems[Device, File System and RAID Types] for information about available RAID types), and you can also specify which physical devices (disks) this volume should reside on. You can select one or more disks which will be used to hold this volume by holding down kbd:[Ctrl] and clicking each disk in the list.
++
+[NOTE]
+====
+
+The installer supports LUKS encryption of entire Btrfs volumes. To enable, click on the Modify button under Volume. Then check Encrypt. See the [citetitle]_{PRODUCT} Security Guide_, available at link:++https://docs.fedoraproject.org/++[], for information about LUKS disk encryption.
+
+====
++
+Additionally, you can set a fixed size for the volume by selecting the `Fixed` option from the `Size policy` menu and entering a size for the volume group.
++
+After you finish configuring the Btrfs volume settings, click `Save` to return to the main `Manual Partitioning` screen.
+
+. If you need to create more than one Btrfs volume, open the `Volume` drop-down menu and select the `Create a new volume` option. A new dialog window will open, identical to the one described in the previous step. Again, select a name, storage devices, encryption settings, RAID level and size policy for the new volume, and click `Save`. The new volume will then become available in the `Volume` drop-down menu; you can then go through your existing mount points and change this setting to assign them to a different volume.
+
+. Configure other settings specific to the subvolume - its `Mount Point`, `Device Type`, and `Name`. Press `Update Settings` to apply any changes to the configuration.
+
+Repeat this procedure for any additional Btrfs subvolumes you want to create. Note that when creating additional subvolumes, a new volume is not automatically created each time; instead, any additional subvolumes are assigned to an existing volume.
+
+For each mount point you create, review its settings and make sure that it is assigned to the correct volume, that it has sufficient capacity, and that it has a descriptive name so you can identify the subvolume.

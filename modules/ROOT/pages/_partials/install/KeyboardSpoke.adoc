@@ -1,0 +1,45 @@
+
+:experimental:
+
+[[sect-installation-gui-keyboard-layout]]
+=== Keyboard Layout
+
+The `Keyboard Layout` screen allows you to set up one or more keyboard layouts for your system and a way to switch between them. One keyboard layout is configured automatically based on your selection in xref:Installing_Using_Anaconda.adoc#sect-installation-gui-welcome[Welcome Screen and Language Selection], but you can change this layout and add additional ones before you begin the installation.
+
+Keyboard layouts are a separate setting from system languages, and these two settings can be mixed as you see fit.
+
+[NOTE]
+====
+
+All settings configured in this screen will be available on the installed system, and they will also become immediately available inside the installer. You can use the keyboard icon in the top right corner of any screen, or the keyboard switch you configured in this screen, to cycle between your configured layouts.
+
+====
+
+.Keyboard Layout
+
+image::anaconda/KeyboardSpoke.png[The keyboard layout configuration screen, showing several additional layouts configured in the left column.]
+
+The left half of the screen contains a window listing all currently configured layouts. The order in which the layouts are displayed is important - the same order will be used when switching between layouts, and the first listed layout will be the default on your system.
+
+The text field on the right side of the screen can be used to test the currently selected layout.
+
+You can click a layout in the list to highlight it. At the bottom of the list, there is a set of buttons:
+
+* The `+` button adds a new layout. When you press this button, a new window opens with a list of all available layouts, grouped by language. You can find a layout by browsing the list, or you can use the search bar at the bottom of this window. When you find the layout you want to add, highlight it and press `Add`.
+
+* The `-` button removes the currently highlighted layout.
+
+* The up and down buttons can be used to move the highlighted layout up or down in the list.
+
+* The keyboard button opens a new window which offers a visual representation of the highlighted layout.
+
+[IMPORTANT]
+====
+
+If you use a layout that cannot accept Latin characters, such as `Russian`, you are advised to also add the `English (United States)` layout and configure a keyboard combination to switch between the two layouts. If you only select a layout without Latin characters, you may be unable to enter a valid `root` password and user credentials later in the installation process. This may prevent you from completing the installation.
+
+====
+
+You can also optionally configure a keyboard switch which can be used to cycle between available layouts. To do so, click the `Options` button on the right side of the screen. The `Layout Switching Options` dialog will open, allowing you to configure one or more keys or key combinations for switching. Select one or more key combinations using the check boxes next to them, and click `OK` to confirm your selection.
+
+After you finish configuring keyboard layouts and switches, click `Done` in the top left corner to return to xref:Installing_Using_Anaconda.adoc#sect-installation-gui-installation-summary[Installation Summary].

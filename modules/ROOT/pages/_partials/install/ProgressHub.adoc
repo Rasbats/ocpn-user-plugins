@@ -1,0 +1,20 @@
+
+:experimental:
+
+[[sect-installation-gui-installation-progress]]
+=== Installation Progress
+
+The `Installation Progress` screen is displayed after you finish configuring all required items in xref:Installing_Using_Anaconda.adoc#sect-installation-gui-installation-summary[Installation Summary] and press the `Begin installation` button. After this point, the installation process actually starts and changes are being made to your selected disks. It is not possible to go back to the `Installation Summary` and change any settings configured there; if you need to do so, you must wait for the installation process to finish, reboot your system, log in and change your settings on the installed system.
+
+.Installation Progress
+
+image::anaconda/ProgressHub.png[Installation progress screen.]
+
+The bottom of the screen shows a progress bar and a message informing you of the current progress of the installation. When the installation finishes and the `root` password has been set, you can press the `Finish configuration` button to reboot your computer and log in to your newly installed {PRODUCT} system.
+
+[IMPORTANT]
+====
+
+Before you finish the installation and reboot, either remove the media (CD, DVD or a USB drive) which you used to start the installation, or make sure that your system tries to boot from the hard drive before trying removable media. Otherwise, your computer will start the installer again instead of the installed system.
+
+====

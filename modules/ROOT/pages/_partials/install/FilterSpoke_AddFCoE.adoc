@@ -1,0 +1,21 @@
+
+:experimental:
+
+[[sect-installation-gui-installation-destination-add-fcoe]]
+==== Add FCoE SAN
+
+The following procedure explains how to add _Fibre Channel over Ethernet_ (FCoE) storage devices and make them available during the installation:
+
+[[proc-installation-gui-installation-destination-add-fcoe]]
+.Add FCoE Target
+. Click the `Add FCoE SAN` button in the bottom right corner of xref:Installing_Using_Anaconda.adoc#sect-installation-gui-installation-destination[Installation Destination - Specialized & Network Disks]. A new dialog window will open.
+
+. Select the network interface (`NIC`) which is connected to your FCoE switch from the drop-down menu. Note that this network interface must be configured and connected - see xref:install/Installing_Using_Anaconda.adoc#sect-installation-gui-network-configuration[Network & Hostname].
+
+. Below the `NIC` drop-down menu are two choices:
++
+`Use DCB`::  _Data Center Bridging_ (DCB) is a set of enhancements to the Ethernet protocols designed to increase the efficiency of Ethernet connections in storage networks and clusters. This option should only be enabled for network interfaces that require a host-based DCBX client. Configurations on interfaces that implement a hardware DCBX client should leave this check box empty.
++
+`Use auto vlan`::  This option indicates whether VLAN discovery should be performed. If this box is checked, then the _FCoE Initiation Protocol_ (FIP) VLAN discovery protocol will run on the Ethernet interface once the link configuration has been validated. If they are not already configured, network interfaces for any discovered FCoE VLANs will be automatically created and FCoE instances will be created on the VLAN interfaces. This option is enabled by default.
+
+. After you select which interface and options to use, click `Add FCoE Disk(s)`. Discovered FCoE storage devices will be displayed under the `Other SAN Devices` tab in xref:Installing_Using_Anaconda.adoc#sect-installation-gui-installation-destination[Installation Destination - Specialized & Network Disks].
