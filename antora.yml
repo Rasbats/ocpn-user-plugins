@@ -1,5 +1,5 @@
 name: fedora
-title: Fedora User Docs
+title: OpenCPN Docs
 version: rawhide
 nav:
 - modules/ROOT/nav.adoc
