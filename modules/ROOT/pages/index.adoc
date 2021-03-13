@@ -11,7 +11,3 @@ Installing {PRODUCT}{nbsp}{PRODVER} 64-bit AMD and Intel
 
 This manual describes the plugins available for OpenCPN.
 --
-image:title_logo.svg[Fedora Documentation Team]
-include::{partialsdir}/Legal_Notice.adoc[]
-
-include::{partialsdir}/Author_Group.adoc[]
