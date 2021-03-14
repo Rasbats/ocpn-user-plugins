@@ -4,9 +4,6 @@ include::{partialsdir}/entities.adoc[]
 
 = Installation Guide
 
-Installing {PRODUCT}{nbsp}{PRODVER} 64-bit AMD and Intel
-
-[abstract]
 --
 
 This manual describes the plugins available for OpenCPN.
