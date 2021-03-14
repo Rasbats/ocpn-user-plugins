@@ -63,7 +63,7 @@ Statusbar_pi thread]
 
 === 3. Standard Actions
 
-link:../../../manual/plugins/statusbar/statusbar-prefs-info.jpg.detail.html[image:../../../manual/plugins/statusbar/statusbar-prefs-info.jpeg[Peferences
+link:manual/plugins/statusbar/statusbar-prefs-info.jpg.detail.html[image:manual/plugins/statusbar/statusbar-prefs-info.jpeg[Peferences
 and Info,title="Peferences and Info"]]
 
 ==== Preferences Menu
@@ -105,17 +105,17 @@ wxString MultilineString = _T("%02A %2.2B%D  %02E %2.2F%H  %.1I %03J
 \n%02O %2.2P%R %02S %2.2T%V %03W %.2X %03.a");
 ----
 
-link:../../../manual/plugins/statusbar/statsbar-prefs-default.jpg.detail.html[image:../../../manual/plugins/statusbar/statsbar-prefs-default.jpeg[Select
+link:manual/plugins/statusbar/statsbar-prefs-default.jpg.detail.html[image:manual/plugins/statusbar/statsbar-prefs-default.jpeg[Select
 Dropdown - Default,title="Select Dropdown - Default",width=600]]
 
 Select Dropdown - Default
 
-link:../../../manual/plugins/statusbar/statusbar-prefs-multiline.jpg.detail.html[image:../../../manual/plugins/statusbar/statusbar-prefs-multiline.jpeg[Select
+link:manual/plugins/statusbar/statusbar-prefs-multiline.jpg.detail.html[image:manual/plugins/statusbar/statusbar-prefs-multiline.jpeg[Select
 Dropdown - Multiline,title="Select Dropdown - Multiline",width=400]]
 
 Select Dropdown - Multiline
 
-link:../../../manual/plugins/statusbar/statusbar-prefs-ownship.jpg.detail.html[image:../../../manual/plugins/statusbar/statusbar-prefs-ownship.jpeg[Select
+link:manual/plugins/statusbar/statusbar-prefs-ownship.jpg.detail.html[image:manual/plugins/statusbar/statusbar-prefs-ownship.jpeg[Select
 Dropdown - Ownship,title="Select Dropdown - Ownship",width=400]]
 
 Select Dropdown - Ownship

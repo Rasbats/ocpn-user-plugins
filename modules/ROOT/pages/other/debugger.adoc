@@ -4,7 +4,7 @@ indexmenu_n_4
 
 Debugger for the OpenCPN plugin API
 
-link:../../../manual/plugins/ocpndebugger_pi.png.detail.html[image:../../../manual/plugins/ocpndebugger_pi.png[Debugger,title="Debugger",width=50]]
+link:manual/plugins/ocpndebugger_pi.png.detail.html[image:manual/plugins/ocpndebugger_pi.png[Debugger,title="Debugger",width=50]]
 
 === Links
 

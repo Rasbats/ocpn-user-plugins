@@ -2,7 +2,7 @@ indexmenu_n_2
 
 == Calculator
 
-link:../../../manual/plugins/calculator/calculator.png.detail.html[image:../../../manual/plugins/calculator/calculator.png[image]]
+link:manual/plugins/calculator/calculator.png.detail.html[image:manual/plugins/calculator/calculator.png[image]]
 
 === Links
 
@@ -59,13 +59,13 @@ calculations, without having to leave the OpenCPN environment. The
 scientific calculator is capable of working with, and retaining
 variables*. +
 * When starting the plugin for the first time, go to
-image:../../../manual/settings.png[image,width=32,height=32]to find the
+image:manual/settings.png[image,width=32,height=32]to find the
 plugin tab. Click on the calculator plugin, then the “Enable” button.
 
 * Back in the OpenCPN menu the calculator icon
-image:../../../manual/plugins/calculator/calculator.png[image]brings up
+image:manual/plugins/calculator/calculator.png[image]brings up
 the calculator.
-* image:../../../manual/plugins/calculator/calculator_screenshot.png[image]
+* image:manual/plugins/calculator/calculator_screenshot.png[image]
 * Tick the “Help” tickbox to bring up a comprehensive help screen.
 Unticking the help button brings you back to the calculator only
 interface and resizes the menu to the original size.

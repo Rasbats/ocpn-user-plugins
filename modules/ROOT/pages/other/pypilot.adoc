@@ -2,7 +2,7 @@ indexmenu_n_5
 
 == Pypilot Autopilot
 
-link:../../../manual/pypilot_icon.png.detail.html[image:../../../manual/pypilot_icon.png[image,width=50]]
+link:manual/pypilot_icon.png.detail.html[image:manual/pypilot_icon.png[image,width=50]]
 
 The pypilot plugin provides an interface to the free software autopilot
 pypilot. Control, configure and calibrate the autopilot from OpenCPN.
@@ -23,7 +23,7 @@ autopilot in ways not possible through basic nmea0183 messaging. The
 plugin also allows for graphical overlays of the autopilot settings
 directly onto the chart.
 
-link:../../../manual/plugins/pypilot_plugin_screenshot.png.detail.html[image:../../../manual/plugins/pypilot_plugin_screenshot.png[Pypilot
+link:manual/plugins/pypilot_plugin_screenshot.png.detail.html[image:manual/plugins/pypilot_plugin_screenshot.png[Pypilot
 Screenshot,title="Pypilot Screenshot",width=400]]
 
 OpenCPN Plugin for Pypilot Autopilots An OpenSource Marine Autopilot.
@@ -72,7 +72,7 @@ RTMUlib2. More details are available in the
 https://github.com/pypilot/pypilot/wiki[Wiki] and
 https://github.com/pypilot/pypilot/blob/master/README[README]
 
-link:../../../manual/plugins/pypilot-menus.png.detail.html[image:../../../manual/plugins/pypilot-menus.png[Menus,title="Menus",width=650]]
+link:manual/plugins/pypilot-menus.png.detail.html[image:manual/plugins/pypilot-menus.png[Menus,title="Menus",width=650]]
 
 === PyPilot Integrated Hardware Shop
 
