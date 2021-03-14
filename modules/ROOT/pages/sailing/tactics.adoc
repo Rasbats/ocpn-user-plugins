@@ -21,7 +21,7 @@ https://tgp-architects.com/files/[OpenCPN Beta File Thingie 2.5.7]
 “rguser”, “rgpass” Go to Tactics directory and download download sample
 vdr file to play (*Sample1.txt, Sample2.txt, Sample3.txt*).
 
-link:plugins/tactics/tactics_pi-bigspeedy.jpeg[image:plugins/tactics/tactics_pi-bigspeedy.jpeg[Big
+link:manual/plugins/tactics/tactics_pi-bigspeedy.jpeg[image:plugins/tactics/tactics_pi-bigspeedy.jpeg[Big
 Speedy racing in the Adriatic
 Sea,title="Big Speedy racing in the Adriatic Sea",width=300]] +
 
@@ -29,7 +29,7 @@ Sea,title="Big Speedy racing in the Adriatic Sea",width=300]] +
 
 Rev 1.0
 
-link:plugins/tactics/tactics_pi-3.jpg.detail.html[image:../../../manual/plugins/tactics/tactics_pi-3.jpeg[Tactics_pi
+link:manual/plugins/tactics/tactics_pi-3.jpg[image:../../../manual/plugins/tactics/tactics_pi-3.jpeg[Tactics_pi
 Laylines,title="Tactics_pi Laylines",width=300]]
 
 References:
