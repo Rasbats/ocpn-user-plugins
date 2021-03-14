@@ -2,6 +2,8 @@ indexmenu_n_12
 
 == Sailing
 
+Mostly for sailboats.
+
 image:../../dev/plugins/beta_plugins/tactics_pi.png[image] +
 *link:sailing/tactics.html[tactics]* +
 Dashboard for racing, Target speed, VMG, Current, etc.
