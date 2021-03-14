@@ -38,7 +38,7 @@ Provides an OpencCPN interface to the free software autopilot pypilot.
 A simple simulator that allows driving a boat across the chart and more.
 
 *link:other/twocan_pi.html[twocan_pi]* +
-Integrating OpenCPN with NMEA2000® network.
+Integrating OpenCPN with a NMEA2000® network.
 
 *link:other/odometer.html[odometer]* +
 Simple GPS Features.
