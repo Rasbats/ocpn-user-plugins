@@ -23,7 +23,7 @@ installing this plugin.
 
 === 3. Standard actions
 
-image:../../../manual/plugins/polar/polar-pi-eliminate-zeros.png[image,width=517,height=361]
+image:manual/plugins/polar/polar-pi-eliminate-zeros.png[image,width=517,height=361]
 
 At this moment the polar plugin has 4 modes of operation:
 
@@ -66,13 +66,13 @@ current. Make several of these recordings for different sets of sails
 and reefing.
 . Using Polar_pi load one of the files.
 
-link:../../../manual/plugins/polar/polar-load-data.jpg.detail.html[image:../../../manual/plugins/polar/polar-load-data.jpeg[Polar
+link:manual/plugins/polar/polar-load-data.jpg.detail.html[image:manual/plugins/polar/polar-load-data.jpeg[Polar
 Load Nmea0183 Recorded Data
 file,title="Polar Load Nmea0183 Recorded Data file",width=600]]
 
 Load Nmea0183 Recorded Data file
 
-link:../../../manual/plugins/polar/polar-open-file.jpg.detail.html[image:../../../manual/plugins/polar/polar-open-file.jpeg[Polar
+link:manual/plugins/polar/polar-open-file.jpg.detail.html[image:manual/plugins/polar/polar-open-file.jpeg[Polar
 Open Nmea0183 Recorded Data
 file,title="Polar Open Nmea0183 Recorded Data file",width=600]]
 
@@ -94,7 +94,7 @@ use in weather_routing.
 
 === 5. Options
 
-image:../../../manual/plugins/polar/polar_preference.png[image,width=260]
+image:manual/plugins/polar/polar_preference.png[image,width=260]
 
 === 6. Windows Alternative
 

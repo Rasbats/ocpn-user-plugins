@@ -32,7 +32,7 @@ The predictor line allows setting the sample time for smoother
 prediction than the builtin predictor. This is especially useful when
 traveling relatively slowly in areas with large waves.
 
-link:../../../manual/plugins/sweepplot/sweepplot_pi.jpg.detail.html[image:../../../manual/plugins/sweepplot/sweepplot_pi.jpeg[image,width=400]]
+link:manual/plugins/sweepplot/sweepplot_pi.jpg.detail.html[image:manual/plugins/sweepplot/sweepplot_pi.jpeg[image,width=400]]
 
 The top histogram is the Speed Screen which offers Speed, PDS10
 (Position Determined Speed = 10 seconds) and PDS 60 (60 seconds.)
@@ -51,14 +51,14 @@ case of large waves, even with an ideal autopilot. This will cause the
 boat to not travel in a straight line, but in a S curve. The GPS speed
 with read higher than the PDS position determined speed.
 
-link:../../../manual/plugins/sweepplot/sweep-plot-speed-pds.jpg.detail.html[image:../../../manual/plugins/sweepplot/sweep-plot-speed-pds.jpeg[sweepplot,title="sweepplot",width=400]]
+link:manual/plugins/sweepplot/sweep-plot-speed-pds.jpg.detail.html[image:manual/plugins/sweepplot/sweep-plot-speed-pds.jpeg[sweepplot,title="sweepplot",width=400]]
 
 ==== Configuration
 
 While running the plugin right-click on the plugin screen to bring up
 the Configuration Menu.
 
-link:../../../manual/plugins/sweepplot/sweepplot-on-the-fly-menu.jpeg[image:../../../manual/plugins/sweepplot/sweepplot-on-the-fly-menu.jpeg[sweepplot-config,title="sweepplot-config",width=600]]
+link:manual/plugins/sweepplot/sweepplot-on-the-fly-menu.jpeg[image:manual/plugins/sweepplot/sweepplot-on-the-fly-menu.jpeg[sweepplot-config,title="sweepplot-config",width=600]]
 
 While using the plugin you an right-click to change various settings on
 the fly.

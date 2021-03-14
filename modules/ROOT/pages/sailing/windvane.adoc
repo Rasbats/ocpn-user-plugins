@@ -30,17 +30,17 @@ This makes the setup of the connections filtering easier.
 === Use
 
 When the plugin is enabled it will show
-image:../../../manual/plugins/windvane_autopilot/windvane_toolbar_icon.png[image,width=27,height=27]in
+image:manual/plugins/windvane_autopilot/windvane_toolbar_icon.png[image,width=27,height=27]in
 the OpenCPN toolbar. This tool will not activate unless there is wind,
 gps and heading information being provided to OpenCPN. You will get a
 warning dialog:
 
-image:../../../manual/plugins/windvane_autopilot/windvane_warning_message.png[image,width=319,height=149]
+image:manual/plugins/windvane_autopilot/windvane_warning_message.png[image,width=319,height=149]
 
 If there is wind, gps and heading information being supplied you will
 activate the main autopilot dialog:
 
-image:../../../manual/plugins/windvane_autopilot/windvane_dialog.png[image,width=220,height=384]
+image:manual/plugins/windvane_autopilot/windvane_dialog.png[image,width=220,height=384]
 
 'This will show you the current 'aggresiveness' to follow the required
 Angle by modifying the amount of virtual XTE is being sent to the
@@ -82,7 +82,7 @@ Windvane Preferences.
 
 ===== General
 
-image:../../../manual/plugins/windvane_autopilot/windvane_properties_-_general.png[image,width=493,height=407]
+image:manual/plugins/windvane_autopilot/windvane_properties_-_general.png[image,width=493,height=407]
 
 ====== AutoPilot Update Frequency (Secs)
 
@@ -113,12 +113,12 @@ to change values.
 
 ===== Help
 
-image:../../../manual/plugins/windvane_autopilot/windvane_properties_-_help.png[image,width=493,height=407]
+image:manual/plugins/windvane_autopilot/windvane_properties_-_help.png[image,width=493,height=407]
 
 ===== About
 
-image:../../../manual/plugins/windvane_autopilot/windvane_properties_-_about.png[image,width=493,height=407]
+image:manual/plugins/windvane_autopilot/windvane_properties_-_about.png[image,width=493,height=407]
 
 ===== License
 
-image:../../../manual/plugins/windvane_autopilot/windvane_properties_-_license.png[image,width=493,height=407]
+image:manual/plugins/windvane_autopilot/windvane_properties_-_license.png[image,width=493,height=407]
