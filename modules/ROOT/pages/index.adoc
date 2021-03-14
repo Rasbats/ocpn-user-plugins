@@ -2,7 +2,7 @@
 :experimental:
 include::{partialsdir}/entities.adoc[]
 
-= Installation Guide
+= Plugins Guide
 
 --
 
