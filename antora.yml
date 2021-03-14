@@ -1,6 +1,6 @@
 name: OpenCPN
 title: OpenCPN Docs
-version: rawhide
+version: plugins
 nav:
 - modules/ROOT/nav.adoc
 #- modules/release-notes/nav.adoc
