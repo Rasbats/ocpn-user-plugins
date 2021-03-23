@@ -1,6 +1,7 @@
 name: plugins
 title: OpenCPN Plugin Docs
 version: dev
+start_page: ROOT:index.adoc
 nav:
 - modules/ROOT/nav.adoc
 #- modules/release-notes/nav.adoc
