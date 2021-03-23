@@ -1,6 +1,7 @@
-name: OpenCPN
-title: OpenCPN Docs
+name: ocpn-plugins
+title: OpenCPN Plugin Docs
 version: plugins
+start_page: ROOT:index.adoc
 nav:
 - modules/ROOT/nav.adoc
 #- modules/release-notes/nav.adoc
