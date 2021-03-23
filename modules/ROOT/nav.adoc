@@ -1,3 +1,3 @@
 * xref:index.adoc[Welcome]
-* xref:0.1@shipdriver:module:ROOT/page/shipdriver.adoc[ShipDriver].
+* xref:0.1@shipdriver::nav.adoc[ShipDriver].
 
