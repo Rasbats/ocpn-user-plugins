@@ -34,6 +34,8 @@ with NMEA data streams.
 *link:other/pypilot.html[pypilot]* +
 Provides an OpencCPN interface to the free software autopilot pypilot.
 
+xref:ROOT:index.adoc[]
+
 *link:other/shipdriver.html[shipdriver]* +
 A simple simulator that allows driving a boat across the chart and more.
 
