@@ -1,2 +1,4 @@
 = This manual describes the plugins available for OpenCPN.
 
+* xref:@shipdriver::index.adoc[ShipDriver].
+
