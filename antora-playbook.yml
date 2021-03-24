@@ -5,7 +5,7 @@ site:
 
 content:
   sources:
-  - url: ./
+  - url: https://github.com/Rasbats/ocpn-user-plugins
     start_paths:
     - source1
     - source2
