@@ -1,14 +1,14 @@
 site:
   title: Antora Example distributed-components/simple-distributed
-  url: http://example.com
-  start_page: simple-distributed-component::index.adoc
+  url: https://github.com/Rasbats/ocpn-manuals
+  start_page:source1::index.adoc
 
 content:
   sources:
-  - url: ./../../
+  - url: ./
     start_paths:
-    - distributed-components/simple-distributed/source1
-    - distributed-components/simple-distributed/source2
+    - source1
+    - source2
 
 ui:
   bundle:
