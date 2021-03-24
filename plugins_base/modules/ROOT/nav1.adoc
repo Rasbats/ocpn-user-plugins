@@ -1,3 +1,0 @@
-* xref:index.adoc[Welcome]
-** xref::index.adoc[ShipDriver]
-
