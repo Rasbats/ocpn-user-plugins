@@ -46,7 +46,7 @@ The AIS Preferences are used later
 link:/opencpn/opencpn_user_manual/plugins/other/shipdriver#ais[(See this
 section)]. They can be left unchecked.
 
-image::sd2.png[sd2.png]
+image:sd2.png[sd2.png]
 
 After 'Apply'/'Ok' the ShipDriver icon will appear in the toolbar of the
 main screen.
