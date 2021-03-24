@@ -1,7 +1,7 @@
 site:
   title: Antora Example distributed-components/simple-distributed
   url: https://github.com/Rasbats/ocpn-user-plugins
-  start_page: ROOT:index.adoc
+  start_page: simple-distributed-component:ROOT:index.adoc
 
 content:
   sources:
