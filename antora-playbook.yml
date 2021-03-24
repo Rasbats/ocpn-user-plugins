@@ -1,6 +1,6 @@
 site:
   title: Antora Example distributed-components/simple-distributed
-  url: https://github.com/Rasbats/ocpn-manuals
+  url: https://github.com/Rasbats/ocpn-user-plugins
   start_page: source1::index.adoc
 
 content:
